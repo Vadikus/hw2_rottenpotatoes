@@ -4,7 +4,7 @@ module MoviesHelper
     count.odd? ?  "odd" :  "even"
   end
   
-  def hi(column)
+  def hilite(column)
     if column == params[:sort] 
       "hilite"
     end
