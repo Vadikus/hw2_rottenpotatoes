@@ -1,0 +1,99 @@
+    1  sudo password root
+    2  sudo passwd root
+    3  set gedit ("ed") as default text editor with "sudo update-alternatives --config editor"
+    4  sudo update-alternatives --config editor
+    5  gedit
+    6  sudo update-alternatives --config editor
+    7  ls -a
+    8  rm .gitconfig~
+    9  ls -a
+   10  ls
+   11  gedit configure_image.sh
+   12  . configure_image.sh 
+   13  ls
+   14  rails server
+   15  install --without production
+   16  install --help
+   17  rails server
+   18  bundle install --without production
+   19  rails server
+   20  rails generate migration CreateMovies
+   21  rake db:migrate
+   22  rails server
+   23  ls
+   24  git clone git://github.com/Vadikus/hw2_rottenpotatoes.git
+   25  git status
+   26  git push origin master
+   27  git remote add upstream git://github.com/saasbook/hw2_rottenpotatoes.git
+   28  git fetch upstream
+   29  git push origin master
+   30  git fetch upstream
+   31  git merge upstream/master
+   32  git remote set-url origin git@github.com:Vadikus/hw2_rottenpotatoes.git
+   33  git push origin master
+   34  git status
+   35  bundle install --without production
+   36  git status
+   37  rails server
+   38  rake db:migrate
+   39  git status
+   40  git --help
+   41  git add development.sqlite3 schema.rb 
+   42  rake db:migrate
+   43  rails server
+   44  git push origin master
+   45  heroku rake db:migrate
+   46  heroku login
+   47  heroku rake db:migrate
+   48  heroku --help
+   49  git commit -a
+   50  bundle install
+   51  heroku create --stack ceda
+   52  heroku create --stack cedar
+   53  heroku update
+   54  git push heroku master
+   55  heroku rake db:migrate
+   56  heroku run rake db:migrate
+   57  du -s .
+   58  ls
+   59  du .
+   60  du -sh hw2_rottenpotatoes 
+   61  heroku logs
+   62  git push heroku master
+   63  heroku ps
+   64  heroku logs -f
+   65  git status
+   66  git reset
+   67  rails console
+   68  rails generate migration test
+   69  history
+   70  history >>hist.cmds
+    1  sudo password root
+    2  sudo passwd root
+    3  set gedit ("ed") as default text editor with "sudo update-alternatives --config editor"
+    4  sudo update-alternatives --config editor
+    5  gedit
+    6  sudo update-alternatives --config editor
+    7  ls -a
+    8  rm .gitconfig~
+    9  ls -a
+   10  ls
+   11  gedit configure_image.sh
+   12  . configure_image.sh 
+   13  clear
+   14  git clone git://github.com/saasbook/hw2_rottenpotatoes.git
+   15  df -h
+   16  uname -a
+   17  ls
+   18  rails server
+   19  rake db:migrate
+   20  rails server
+   21  ls
+   22  git reset
+   23  git status
+   24  git ignore .project
+   25  git --help
+   26  ls
+   27  git add .project
+   28  git commit -a 
+   29  history >>hist.cmds
